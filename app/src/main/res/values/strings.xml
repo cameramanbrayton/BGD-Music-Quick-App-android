@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BGD Music Quick App</string>
+    <string name="bgd_concert">bgd_concert_announcment</string>
+    <string name="bgd_music_quick_app">BGD Music Quick App</string>
+    <string name="concert">concert</string>
+    <string name="bad_girls_dream_1990_present_app_home_page" translatable="false"><a href="https://homer.bgdmusic.club/">Bad Girls Dream 1990 - Present App Home Page</a></string>
+</resources>
