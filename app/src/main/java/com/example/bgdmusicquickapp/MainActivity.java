@@ -31,6 +31,9 @@ public class MainActivity extends AppCompatActivity {
         textView = findViewById(R.id.DuelWorLinkText5);
         textView.setMovementMethod(LinkMovementMethod.getInstance());
 
+        textView = findViewById(R.id.ResChiLinkText6);
+        textView.setMovementMethod(LinkMovementMethod.getInstance());
+
     }
 
     public void openBrowser(View view){
