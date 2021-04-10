@@ -7,6 +7,20 @@
     android:background="#000000"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:id="@+id/bgdHome"
+        android:layout_width="80dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/concert"
+        android:onClick="openBrowser"
+        android:tag="https://homer.bgdmusic.club"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/headerText"
+        app:srcCompat="@drawable/bgd_concert_512" />
+
     <TextView
         android:id="@+id/headerText"
         android:layout_width="wrap_content"
@@ -74,7 +88,34 @@
         android:layout_marginTop="25dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/BgdHome"
+        android:onClick="openBrowser"
+        android:tag="https://homer.bgdmusic.club/login/"
         app:srcCompat="@drawable/bgd_concert_512"
         android:contentDescription="@string/bgd_concert" />
+
+    <TextView
+        android:id="@+id/homerBgdLinkText2"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="116dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@android:color/black"
+        android:clickable="true"
+        android:focusable="true"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="@string/bad_girls_dream_1990_present_app_login_registration_page"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toEndOf="@+id/BgdHome"
+        app:layout_constraintTop_toBottomOf="@+id/headerText" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
