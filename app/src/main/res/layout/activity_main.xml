@@ -274,4 +274,43 @@
         app:layout_constraintStart_toEndOf="@+id/BgdHome"
         app:layout_constraintTop_toBottomOf="@+id/headerText" />
 
+    <ImageView
+        android:id="@+id/VivsBiz"
+        android:layout_width="80dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/RestlessChild"
+        android:onClick="openBrowser"
+        android:tag="https://home.vivians.biz"
+        app:srcCompat="@drawable/vivs_512"
+        android:contentDescription="@string/vivs_biz" />
+
+    <TextView
+        android:id="@+id/VivsBizLinkText7"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="572dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@android:color/black"
+        android:clickable="true"
+        android:focusable="true"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="@string/shopping_vivians_app_home_page"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toEndOf="@+id/BgdHome"
+        app:layout_constraintTop_toBottomOf="@+id/headerText" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
