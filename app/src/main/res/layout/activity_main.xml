@@ -196,4 +196,18 @@
         app:layout_constraintStart_toEndOf="@+id/BgdHome"
         app:layout_constraintTop_toBottomOf="@+id/headerText" />
 
+    <ImageView
+        android:id="@+id/DuelingWorlds"
+        android:layout_width="80dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Cassette"
+        android:onClick="openBrowser"
+        android:tag="https://home.duelingworlds.com/"
+        app:srcCompat="@drawable/duelingworlds_512"
+        android:contentDescription="@string/dueling_worlds"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
