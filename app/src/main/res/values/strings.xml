@@ -7,6 +7,6 @@
         Bad Girls Dream 1990 - Present App Home Page</a></string>
     <string name="bad_girls_dream_1990_present_app_login_registration_page" translatable="false"><a href="https://homer.bgdmusic.club/login/">
         Bad Girls Dream 1990 - Present App Login/Registration Page</a></string>
-    <string name="mosh">moshFix</string>
-    <string name="string_mosh" />
+    <string name="mosh_fix_of_bad_girls_dream_1989_mosh_page" translatable="false"><a href="https://mosh.bgdmusic.club/">Mosh Fix of Bad Girls Dream - 1989 Mosh Page</a></string>
+    <string name="mosh_and">mosh_and</string>
 </resources>
