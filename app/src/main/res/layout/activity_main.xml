@@ -235,4 +235,18 @@
         app:layout_constraintStart_toEndOf="@+id/BgdHome"
         app:layout_constraintTop_toBottomOf="@+id/headerText" />
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="80dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="15dp"
+        android:onClick="openBrowser"
+        android:tag="https://home.restlesschild.rocks/"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/DuelingWorlds"
+        app:srcCompat="@drawable/restless_512"
+        android:contentDescription="@string/string_restless" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
