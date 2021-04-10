@@ -80,7 +80,7 @@
         app:layout_constraintTop_toBottomOf="@+id/headerText" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/BgdHomeLogin"
         android:layout_width="80dp"
         android:layout_height="75dp"
         android:layout_marginStart="8dp"
@@ -117,5 +117,19 @@
         app:layout_constraintHorizontal_bias="0.666"
         app:layout_constraintStart_toEndOf="@+id/BgdHome"
         app:layout_constraintTop_toBottomOf="@+id/headerText" />
+
+    <ImageView
+        android:id="@+id/MoshFix"
+        android:layout_width="80dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BgdHomeLogin"
+        android:onClick="openBrowser"
+        android:tag="https://mosh.bgdmusic.club/"
+        app:srcCompat="@drawable/mosh_and"
+        android:contentDescription="@string/string_mosh" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
