@@ -210,4 +210,29 @@
         app:srcCompat="@drawable/duelingworlds_512"
         android:contentDescription="@string/dueling_worlds"/>
 
+    <TextView
+        android:id="@+id/DuelWorLinkText5"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="392dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@android:color/black"
+        android:clickable="true"
+        android:focusable="true"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="@string/dueling_worlds_international_home_page"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toEndOf="@+id/BgdHome"
+        app:layout_constraintTop_toBottomOf="@+id/headerText" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
