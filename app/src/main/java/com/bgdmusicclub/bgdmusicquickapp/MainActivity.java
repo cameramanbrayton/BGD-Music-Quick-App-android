@@ -1,4 +1,4 @@
-package com.example.bgdmusicquickapp;
+package com.bgdmusicclub.bgdmusicquickapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 

@@ -1,4 +1,4 @@
-package com.example.bgdmusicquickapp;
+package com.bgdmusicclub.bgdmusicquickapp;
 
 import android.content.Context;
 
