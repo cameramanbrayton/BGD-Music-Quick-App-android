@@ -225,7 +225,7 @@
         <ImageView
             android:id="@+id/RestlessChild"
             android:layout_width="80dp"
-            android:layout_height="75dp"
+            android:layout_height="80dp"
             android:layout_marginStart="8dp"
             android:layout_marginLeft="8dp"
             android:layout_marginTop="15dp"
@@ -234,15 +234,17 @@
             android:tag="https://home.restlesschild.rocks/"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/DuelingWorlds"
-            app:srcCompat="@drawable/restless_512" />
+            app:srcCompat="@drawable/ic_restless_512" />
 
         <TextView
             android:id="@+id/ResChiLinkText6"
-            android:layout_width="280dp"
-            android:layout_height="60dp"
-            android:layout_marginTop="480dp"
-            android:layout_marginEnd="30dp"
-            android:layout_marginRight="30dp"
+            android:layout_width="215dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
             android:background="@android:color/black"
             android:clickable="true"
             android:focusable="true"
@@ -252,10 +254,11 @@
             android:paddingRight="5dp"
             android:text="@string/restless_child_1988_to_present_app_beginning_home_page"
             android:textColor="#000000"
-            android:textSize="15sp"
+            android:textSize="13sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/headerText" />
+            app:layout_constraintStart_toEndOf="@+id/RestlessChild"
+            app:layout_constraintTop_toBottomOf="@+id/DuelWorLinkText5" />
 
         <ImageView
             android:id="@+id/VivsBiz"
