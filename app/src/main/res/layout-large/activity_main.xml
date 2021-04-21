@@ -34,19 +34,20 @@
         <ImageView
             android:id="@+id/bgdHomeImage"
             android:layout_width="768dp"
-            android:layout_height="175dp"
+            android:layout_height="350dp"
             android:layout_marginTop="10dp"
             android:contentDescription="@string/ic_bgd_concert_512"
             android:onClick="openBrowser"
             android:tag="https://home.duelingworlds.com"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/headerText"
             app:srcCompat="@drawable/ic_bgd_concert_512" />
 
         <TextView
             android:id="@+id/homerBgdLinkText"
-            android:layout_width="360dp"
-            android:layout_height="60dp"
+            android:layout_width="768dp"
+            android:layout_height="100dp"
             android:background="@android:color/black"
             android:clickable="true"
             android:focusable="true"
@@ -56,7 +57,7 @@
             android:paddingRight="10dp"
             android:text="@string/bad_girls_dream_1990_present_app_home_page"
             android:textColor="#000000"
-            android:textSize="18sp"
+            android:textSize="30sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -64,8 +65,8 @@
 
         <ImageView
             android:id="@+id/BgdHomeLogin"
-            android:layout_width="360dp"
-            android:layout_height="125dp"
+            android:layout_width="768dp"
+            android:layout_height="350dp"
             android:layout_marginTop="35dp"
             android:contentDescription="@string/bgd_concert"
             android:onClick="openBrowser"
@@ -77,8 +78,8 @@
 
         <TextView
             android:id="@+id/homerBgdLinkText2"
-            android:layout_width="360dp"
-            android:layout_height="60dp"
+            android:layout_width="768dp"
+            android:layout_height="100dp"
             android:background="@android:color/black"
             android:clickable="true"
             android:focusable="true"
@@ -88,16 +89,15 @@
             android:paddingRight="10dp"
             android:text="@string/bad_girls_dream_1990_present_app_login_registration_page"
             android:textColor="#FFFFFF"
-            android:textSize="18sp"
+            android:textSize="30sp"
             android:textStyle="bold"
-            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/BgdHomeLogin" />
 
         <ImageView
             android:id="@+id/MoshFix"
-            android:layout_width="360dp"
-            android:layout_height="125dp"
+            android:layout_width="768dp"
+            android:layout_height="350dp"
             android:layout_marginTop="35dp"
             android:contentDescription="@string/mosh_and"
             android:onClick="openBrowser"
@@ -109,8 +109,8 @@
 
         <TextView
             android:id="@+id/moshBgdLinkText3"
-            android:layout_width="360dp"
-            android:layout_height="60dp"
+            android:layout_width="768dp"
+            android:layout_height="100dp"
             android:background="@android:color/black"
             android:clickable="true"
             android:focusable="true"
@@ -120,7 +120,7 @@
             android:paddingRight="10dp"
             android:text="@string/mosh_fix_of_bad_girls_dream_1989_mosh_page"
             android:textColor="#000000"
-            android:textSize="18sp"
+            android:textSize="30sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -128,8 +128,8 @@
 
         <ImageView
             android:id="@+id/Cassette"
-            android:layout_width="360dp"
-            android:layout_height="125dp"
+            android:layout_width="768dp"
+            android:layout_height="350dp"
             android:layout_marginTop="40dp"
             android:contentDescription="@string/string_cassette"
             android:onClick="openBrowser"
@@ -141,8 +141,8 @@
 
         <TextView
             android:id="@+id/blogBgdLinkText4"
-            android:layout_width="360dp"
-            android:layout_height="60dp"
+            android:layout_width="768dp"
+            android:layout_height="100dp"
             android:background="@android:color/black"
             android:clickable="true"
             android:focusable="true"
@@ -152,7 +152,7 @@
             android:paddingRight="10dp"
             android:text="@string/our_blog_of_bad_girls_dream_1990_blog_page"
             android:textColor="#000000"
-            android:textSize="18sp"
+            android:textSize="30sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -160,8 +160,8 @@
 
         <ImageView
             android:id="@+id/DuelingWorlds"
-            android:layout_width="360dp"
-            android:layout_height="125dp"
+            android:layout_width="768dp"
+            android:layout_height="350dp"
             android:layout_marginTop="40dp"
             android:contentDescription="@string/dueling_worlds"
             android:onClick="openBrowser"
@@ -173,8 +173,8 @@
 
         <TextView
             android:id="@+id/DuelWorLinkText5"
-            android:layout_width="360dp"
-            android:layout_height="60dp"
+            android:layout_width="768dp"
+            android:layout_height="100dp"
             android:background="@android:color/black"
             android:clickable="true"
             android:focusable="true"
@@ -184,7 +184,7 @@
             android:paddingRight="10dp"
             android:text="@string/dueling_worlds_international_home_page"
             android:textColor="#000000"
-            android:textSize="18sp"
+            android:textSize="30sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -192,8 +192,8 @@
 
         <ImageView
             android:id="@+id/RestlessChild"
-            android:layout_width="360dp"
-            android:layout_height="125dp"
+            android:layout_width="768dp"
+            android:layout_height="350dp"
             android:layout_marginTop="40dp"
             android:contentDescription="@string/string_restless"
             android:onClick="openBrowser"
@@ -205,27 +205,26 @@
 
         <TextView
             android:id="@+id/ResChiLinkText6"
-            android:layout_width="360dp"
-            android:layout_height="60dp"
+            android:layout_width="768dp"
+            android:layout_height="100dp"
             android:background="@android:color/black"
             android:clickable="true"
             android:focusable="true"
             android:fontFamily="sans-serif-black"
-            android:gravity="center"
+            android:gravity="center|center_horizontal"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
             android:text="@string/restless_child_1988_to_present_app_beginning_home_page"
             android:textColor="#000000"
-            android:textSize="18sp"
+            android:textSize="30sp"
             android:textStyle="bold"
-            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/RestlessChild" />
 
         <ImageView
             android:id="@+id/VivsBiz"
-            android:layout_width="360dp"
-            android:layout_height="125dp"
+            android:layout_width="768dp"
+            android:layout_height="350dp"
             android:layout_marginTop="40dp"
             android:contentDescription="@string/vivs_biz"
             android:onClick="openBrowser"
@@ -237,8 +236,8 @@
 
         <TextView
             android:id="@+id/VivsBizLinkText7"
-            android:layout_width="360dp"
-            android:layout_height="60dp"
+            android:layout_width="768dp"
+            android:layout_height="100dp"
             android:layout_marginBottom="50dp"
             android:background="@android:color/black"
             android:clickable="true"
@@ -249,7 +248,7 @@
             android:paddingRight="10dp"
             android:text="@string/shopping_vivians_app_home_page"
             android:textColor="#000000"
-            android:textSize="18sp"
+            android:textSize="30sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
