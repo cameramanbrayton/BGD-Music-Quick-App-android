@@ -16,14 +16,14 @@
         <TextView
             android:id="@+id/headerText"
             android:layout_width="870dp"
-            android:layout_height="50dp"
+            android:layout_height="70dp"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
             android:fontFamily="sans-serif-black"
             android:gravity="center|center_horizontal"
             android:text="@string/bgd_music_quick_app"
             android:textColor="#FFFFFF"
-            android:textSize="20sp"
+            android:textSize="30sp"
             android:textStyle="bold"
             android:typeface="normal"
             app:layout_constraintBottom_toTopOf="@+id/bgdHomeImage"
@@ -34,7 +34,7 @@
         <ImageView
             android:id="@+id/bgdHomeImage"
             android:layout_width="360dp"
-            android:layout_height="125dp"
+            android:layout_height="200dp"
             android:layout_marginTop="10dp"
             android:contentDescription="@string/ic_bgd_concert_512"
             android:onClick="openBrowser"
@@ -66,7 +66,7 @@
         <ImageView
             android:id="@+id/BgdHomeLogin"
             android:layout_width="360dp"
-            android:layout_height="125dp"
+            android:layout_height="200dp"
             android:layout_marginTop="35dp"
             android:contentDescription="@string/bgd_concert"
             android:onClick="openBrowser"
@@ -98,7 +98,7 @@
         <ImageView
             android:id="@+id/MoshFix"
             android:layout_width="360dp"
-            android:layout_height="125dp"
+            android:layout_height="200dp"
             android:layout_marginTop="35dp"
             android:contentDescription="@string/mosh_and"
             android:onClick="openBrowser"
@@ -130,7 +130,7 @@
         <ImageView
             android:id="@+id/Cassette"
             android:layout_width="360dp"
-            android:layout_height="125dp"
+            android:layout_height="200dp"
             android:layout_marginTop="40dp"
             android:contentDescription="@string/string_cassette"
             android:onClick="openBrowser"
@@ -166,7 +166,7 @@
         <ImageView
             android:id="@+id/DuelingWorlds"
             android:layout_width="360dp"
-            android:layout_height="125dp"
+            android:layout_height="200dp"
             android:layout_marginTop="40dp"
             android:contentDescription="@string/dueling_worlds"
             android:onClick="openBrowser"
@@ -198,7 +198,7 @@
         <ImageView
             android:id="@+id/RestlessChild"
             android:layout_width="360dp"
-            android:layout_height="125dp"
+            android:layout_height="200dp"
             android:layout_marginTop="40dp"
             android:contentDescription="@string/string_restless"
             android:onClick="openBrowser"
@@ -230,7 +230,7 @@
         <ImageView
             android:id="@+id/VivsBiz"
             android:layout_width="360dp"
-            android:layout_height="125dp"
+            android:layout_height="200dp"
             android:layout_marginTop="40dp"
             android:contentDescription="@string/vivs_biz"
             android:onClick="openBrowser"
