@@ -15,7 +15,7 @@
 
         <TextView
             android:id="@+id/headerText"
-            android:layout_width="320dp"
+            android:layout_width="426dp"
             android:layout_height="40dp"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
@@ -129,7 +129,7 @@
 
         <ImageView
             android:id="@+id/Cassette"
-            android:layout_width="360dp"
+            android:layout_width="320dp"
             android:layout_height="100dp"
             android:layout_marginTop="25dp"
             android:contentDescription="@string/string_cassette"
@@ -142,15 +142,15 @@
 
         <TextView
             android:id="@+id/blogBgdLinkText4"
-            android:layout_width="360dp"
+            android:layout_width="320dp"
             android:layout_height="40dp"
             android:background="@android:color/black"
             android:clickable="true"
             android:focusable="true"
             android:fontFamily="sans-serif-black"
             android:gravity="center"
-            android:paddingLeft="5dp"
-            android:paddingRight="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
             android:text="@string/our_blog_of_bad_girls_dream_1990_blog_page"
             android:textColor="#000000"
             android:textSize="14sp"
@@ -161,7 +161,7 @@
 
         <ImageView
             android:id="@+id/DuelingWorlds"
-            android:layout_width="360dp"
+            android:layout_width="320dp"
             android:layout_height="100dp"
             android:layout_marginTop="25dp"
             android:contentDescription="@string/dueling_worlds"
@@ -174,15 +174,15 @@
 
         <TextView
             android:id="@+id/DuelWorLinkText5"
-            android:layout_width="360dp"
+            android:layout_width="320dp"
             android:layout_height="40dp"
             android:background="@android:color/black"
             android:clickable="true"
             android:focusable="true"
             android:fontFamily="sans-serif-black"
             android:gravity="center"
-            android:paddingLeft="5dp"
-            android:paddingRight="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
             android:text="@string/dueling_worlds_international_home_page"
             android:textColor="#000000"
             android:textSize="14sp"
@@ -193,7 +193,7 @@
 
         <ImageView
             android:id="@+id/RestlessChild"
-            android:layout_width="360dp"
+            android:layout_width="320dp"
             android:layout_height="100dp"
             android:layout_marginTop="25dp"
             android:contentDescription="@string/string_restless"
@@ -206,7 +206,7 @@
 
         <TextView
             android:id="@+id/ResChiLinkText6"
-            android:layout_width="360dp"
+            android:layout_width="320dp"
             android:layout_height="40dp"
             android:background="@android:color/black"
             android:clickable="true"
@@ -225,7 +225,7 @@
 
         <ImageView
             android:id="@+id/VivsBiz"
-            android:layout_width="360dp"
+            android:layout_width="320dp"
             android:layout_height="100dp"
             android:layout_marginTop="25dp"
             android:contentDescription="@string/vivs_biz"
@@ -238,9 +238,9 @@
 
         <TextView
             android:id="@+id/VivsBizLinkText7"
-            android:layout_width="360dp"
+            android:layout_width="320dp"
             android:layout_height="40dp"
-            android:layout_marginBottom="30dp"
+            android:layout_marginBottom="20dp"
             android:background="@android:color/black"
             android:clickable="true"
             android:focusable="true"
