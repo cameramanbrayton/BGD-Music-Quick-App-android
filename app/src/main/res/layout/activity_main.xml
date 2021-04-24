@@ -8,25 +8,24 @@
     android:fillViewport="true">
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:background="#000000"
         tools:context=".MainActivity">
 
         <TextView
             android:id="@+id/headerText"
-            android:layout_width="870dp"
-            android:layout_height="50dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
-            android:layout_marginBottom="5dp"
             android:fontFamily="sans-serif-black"
             android:gravity="center|center_horizontal"
+            android:padding="10sp"
             android:text="@string/bgd_music_quick_app"
             android:textColor="#FFFFFF"
-            android:textSize="20sp"
+            android:textSize="30sp"
             android:textStyle="bold"
             android:typeface="normal"
-            app:layout_constraintBottom_toTopOf="@+id/bgdHomeImage"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
