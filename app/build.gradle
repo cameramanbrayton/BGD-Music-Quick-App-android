@@ -10,7 +10,7 @@ android {
         applicationId "com.bgdmusicclub.bgdmusicquickapp"
         minSdkVersion 16
         targetSdkVersion 30
-        versionCode 3
+        versionCode 4
         versionName "2.1"
         vectorDrawables.useSupportLibrary true
 
