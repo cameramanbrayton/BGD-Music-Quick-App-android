@@ -16,10 +16,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        textView = findViewById(R.id.musicAppBgdLinkText);
+        textView.setMovementMethod(LinkMovementMethod.getInstance());
+
         textView = findViewById(R.id.homerBgdLinkText);
         textView.setMovementMethod(LinkMovementMethod.getInstance());
 
-        textView = findViewById(R.id.homerBgdLinkText2);
+        textView = findViewById(R.id.homerBgdLinkText3);
         textView.setMovementMethod(LinkMovementMethod.getInstance());
 
         textView = findViewById(R.id.moshBgdLinkText3);
