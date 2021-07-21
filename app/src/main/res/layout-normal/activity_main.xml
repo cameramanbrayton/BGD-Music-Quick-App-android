@@ -78,6 +78,26 @@
             app:layout_constraintTop_toBottomOf="@+id/bgdMusicAppLinkText"
             app:srcCompat="@drawable/ic_rcb_music_app_product_image_reduced" />
 
+        <TextView
+            android:id="@+id/rcMusicAppLinkText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@android:color/black"
+            android:clickable="true"
+            android:focusable="true"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:padding="10sp"
+            android:text="@string/restless_child_album_in_app_site_1989_ep_album_12_songs_2_99"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rcMusicAppImage" />
+
         <ImageView
             android:id="@+id/bgdHomeImage"
             android:layout_width="0dp"
