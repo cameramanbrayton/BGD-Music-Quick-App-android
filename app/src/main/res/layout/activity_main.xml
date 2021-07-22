@@ -31,7 +31,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <ImageView
-            android:id="@+id/bgdMusicAppView"
+            android:id="@+id/bgdMusicAppImage"
             android:layout_width="0dp"
             android:layout_height="500dp"
             android:contentDescription="@string/ic_bgd_concert_512"
@@ -43,7 +43,7 @@
             app:srcCompat="@drawable/ic_bgd_music_app_product_image_reduced" />
 
         <TextView
-            android:id="@+id/musicAppBgdLinkText"
+            android:id="@+id/bgdMusicAppLinkText"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:background="@android:color/black"
@@ -59,10 +59,10 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/bgdMusicAppView" />
+            app:layout_constraintTop_toBottomOf="@+id/bgdMusicAppImage" />
 
         <ImageView
-            android:id="@+id/rcbMusicAppView"
+            android:id="@+id/rcMusicAppImage"
             android:layout_width="0dp"
             android:layout_height="500dp"
             android:layout_marginTop="20dp"
@@ -72,11 +72,11 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/musicAppBgdLinkText"
+            app:layout_constraintTop_toBottomOf="@+id/bgdMusicAppLinkText"
             app:srcCompat="@drawable/ic_rcb_music_app_product_image_reduced" />
 
         <TextView
-            android:id="@+id/musicAppRcbLinkText"
+            android:id="@+id/rcMusicAppLinkText"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:background="@android:color/black"
@@ -92,10 +92,10 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/rcbMusicAppView" />
+            app:layout_constraintTop_toBottomOf="@+id/rcMusicAppImage" />
 
         <ImageView
-            android:id="@+id/rcbgdMusicAppView"
+            android:id="@+id/rcbgdMusicAppImage"
             android:layout_width="0dp"
             android:layout_height="500dp"
             android:layout_marginTop="20dp"
@@ -105,11 +105,11 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/musicAppRcbLinkText"
+            app:layout_constraintTop_toBottomOf="@+id/rcMusicAppLinkText"
             app:srcCompat="@drawable/ic_rcbgd_music_app_product_image_reduced" />
 
         <TextView
-            android:id="@+id/musicAppRcbgdLinkText"
+            android:id="@+id/rcbgdMusicAppLinkText"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:background="@android:color/black"
@@ -125,7 +125,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/rcbgdMusicAppView" />
+            app:layout_constraintTop_toBottomOf="@+id/rcbgdMusicAppImage" />
 
         <ImageView
             android:id="@+id/bgdHomeImage"
@@ -138,7 +138,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/musicAppRcbgdLinkText"
+            app:layout_constraintTop_toBottomOf="@+id/rcbgdMusicAppLinkText"
             app:srcCompat="@drawable/ic_bgd_concert_512" />
 
         <TextView
