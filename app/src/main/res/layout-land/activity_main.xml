@@ -18,7 +18,6 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
-            android:layout_marginBottom="5dp"
             android:fontFamily="sans-serif-black"
             android:gravity="center|center_horizontal"
             android:padding="10sp"
@@ -27,51 +26,47 @@
             android:textSize="60sp"
             android:textStyle="bold"
             android:typeface="normal"
-            app:layout_constraintBottom_toTopOf="@+id/bgdHomeImage"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <ImageView
+            android:id="@+id/bgdMusicAppImage"
+            android:layout_width="0dp"
+            android:layout_height="400dp"
+            android:layout_marginTop="5dp"
+            android:contentDescription="@string/ic_bgd_concert_512"
+            android:onClick="openBrowser"
+            android:tag="https://shop.duelingworlds.com/shop/bad-girls-dream-album-in-app-site-the-taste-of-satisfaction-1990-album-5-songs-1-99/"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/headerText"
+            app:srcCompat="@drawable/ic_bgd_music_app_product_image_reduced" />
+
+        <ImageView
             android:id="@+id/bgdHomeImage"
             android:layout_width="0dp"
             android:layout_height="400dp"
-            android:layout_marginTop="20dp"
             android:contentDescription="@string/ic_bgd_concert_512"
             android:onClick="openBrowser"
             android:tag="https://home.duelingworlds.com"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/headerText"
-            app:srcCompat="@drawable/ic_bgd_concert_512" />
-
-        <TextView
-            android:id="@+id/homerBgdLinkText"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:background="@android:color/black"
-            android:clickable="true"
-            android:focusable="true"
-            android:fontFamily="sans-serif-black"
-            android:gravity="center"
-            android:padding="10sp"
-            android:text="@string/bad_girls_dream_1990_present_app_home_page"
-            android:textColor="#000000"
-            android:textSize="50sp"
-            android:textStyle="bold"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/bgdHomeImage" />
+            app:srcCompat="@drawable/ic_bgd_concert_512"
+            tools:layout_editor_absoluteY="2110dp" />
 
         <ImageView
             android:id="@+id/BgdHomeLogin"
             android:layout_width="0dp"
             android:layout_height="400dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="16dp"
             android:contentDescription="@string/bgd_concert"
             android:onClick="openBrowser"
             android:tag="https://homer.bgdmusic.club/login/"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/homerBgdLinkText"
             app:srcCompat="@drawable/ic_bgd_concert_512" />
@@ -80,6 +75,7 @@
             android:id="@+id/homerBgdLinkText3"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
             android:background="@android:color/black"
             android:clickable="true"
             android:focusable="true"
@@ -91,6 +87,7 @@
             android:textSize="50sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/BgdHomeLogin" />
 
@@ -98,11 +95,12 @@
             android:id="@+id/MoshFix"
             android:layout_width="0dp"
             android:layout_height="400dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="16dp"
             android:contentDescription="@string/mosh_and"
             android:onClick="openBrowser"
             android:tag="https://mosh.bgdmusic.club/"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/homerBgdLinkText3"
             app:srcCompat="@drawable/ic_mosh_and" />
@@ -111,6 +109,7 @@
             android:id="@+id/moshBgdLinkText3"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
             android:background="@android:color/black"
             android:clickable="true"
             android:focusable="true"
@@ -122,6 +121,7 @@
             android:textSize="50sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/MoshFix" />
 
@@ -129,11 +129,12 @@
             android:id="@+id/Cassette"
             android:layout_width="0dp"
             android:layout_height="400dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="16dp"
             android:contentDescription="@string/string_cassette"
             android:onClick="openBrowser"
             android:tag="https://blog.bgdmusic.club/"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/moshBgdLinkText3"
             app:srcCompat="@drawable/ic_cassette_512" />
@@ -142,6 +143,7 @@
             android:id="@+id/blogBgdLinkText4"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
             android:background="@android:color/black"
             android:clickable="true"
             android:focusable="true"
@@ -153,6 +155,7 @@
             android:textSize="50sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/Cassette" />
 
@@ -160,11 +163,12 @@
             android:id="@+id/DuelingWorlds"
             android:layout_width="0dp"
             android:layout_height="400dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="16dp"
             android:contentDescription="@string/dueling_worlds"
             android:onClick="openBrowser"
             android:tag="https://home.duelingworlds.com/"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/blogBgdLinkText4"
             app:srcCompat="@drawable/ic_duelingworlds_512" />
@@ -173,6 +177,7 @@
             android:id="@+id/DuelWorLinkText5"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
             android:background="@android:color/black"
             android:clickable="true"
             android:focusable="true"
@@ -184,6 +189,7 @@
             android:textSize="50sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/DuelingWorlds" />
 
@@ -191,11 +197,12 @@
             android:id="@+id/RestlessChild"
             android:layout_width="0dp"
             android:layout_height="400dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="16dp"
             android:contentDescription="@string/string_restless"
             android:onClick="openBrowser"
             android:tag="https://home.restlesschild.rocks/"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/DuelWorLinkText5"
             app:srcCompat="@drawable/ic_restless_512" />
@@ -204,6 +211,7 @@
             android:id="@+id/ResChiLinkText6"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
             android:background="@android:color/black"
             android:clickable="true"
             android:focusable="true"
@@ -215,6 +223,7 @@
             android:textSize="50sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/RestlessChild" />
 
@@ -222,11 +231,12 @@
             android:id="@+id/VivsBiz"
             android:layout_width="0dp"
             android:layout_height="400dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="24dp"
             android:contentDescription="@string/vivs_biz"
             android:onClick="openBrowser"
             android:tag="https://home.vivians.biz"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/ResChiLinkText6"
             app:srcCompat="@drawable/ic_vivs_512" />
@@ -248,8 +258,30 @@
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/VivsBiz" />
+            app:layout_constraintTop_toBottomOf="@+id/VivsBiz"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/homerBgdLinkText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:background="@android:color/black"
+            android:clickable="true"
+            android:focusable="true"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:padding="10sp"
+            android:text="@string/bad_girls_dream_1990_present_app_home_page"
+            android:textColor="#000000"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bgdHomeImage" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.core.widget.NestedScrollView>
