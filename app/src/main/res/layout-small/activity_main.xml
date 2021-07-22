@@ -112,6 +112,26 @@
             app:layout_constraintTop_toBottomOf="@+id/rcMusicAppLinkText"
             app:srcCompat="@drawable/ic_rcbgd_music_app_product_image_reduced" />
 
+        <TextView
+            android:id="@+id/rcbgdMusicAppLinkText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@android:color/black"
+            android:clickable="true"
+            android:focusable="true"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/brayton_scott_music_entertainment_all_music_app_17_songs_3_99"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rcbgdMusicAppImage" />
+
         <ImageView
             android:id="@+id/bgdHomeImage"
             android:layout_width="0dp"
