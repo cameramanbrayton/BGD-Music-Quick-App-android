@@ -42,7 +42,8 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/headerText"
-            app:srcCompat="@drawable/ic_bgd_music_app_product_image_reduced" />
+            app:srcCompat="@drawable/ic_bgd_music_app_product_image_reduced"
+            tools:ignore="DuplicateSpeakableTextCheck,DuplicateSpeakableTextCheck" />
 
         <TextView
             android:id="@+id/bgdMusicAppLinkText"
@@ -56,7 +57,7 @@
             android:gravity="center"
             android:padding="10sp"
             android:text="@string/bad_girls_dream_album_in_app_site_the_taste_of_satisfaction_1990_album_5_songs_1_99"
-            android:textColor="#000000"
+            android:textColor="#795548"
             android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
@@ -90,7 +91,7 @@
             android:gravity="center"
             android:padding="10sp"
             android:text="@string/restless_child_album_in_app_site_1989_album_12_songs_2_99"
-            android:textColor="#000000"
+            android:textColor="#795548"
             android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
@@ -110,7 +111,8 @@
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/rcMusicAppLinkText"
-            app:srcCompat="@drawable/ic_rcbgd_music_app_product_image_reduced" />
+            app:srcCompat="@drawable/ic_rcbgd_music_app_product_image_reduced"
+            tools:ignore="ImageContrastCheck,ImageContrastCheck" />
 
         <TextView
             android:id="@+id/rcbgdMusicAppLinkText"

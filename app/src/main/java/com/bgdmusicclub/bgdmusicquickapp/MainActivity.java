@@ -19,15 +19,6 @@ public class MainActivity extends AppCompatActivity {
         textView = findViewById(R.id.bgdMusicAppLinkText);
         textView.setMovementMethod(LinkMovementMethod.getInstance());
 
-        textView = findViewById(R.id.bgdMusicAppLinkText);
-        textView.setMovementMethod(LinkMovementMethod.getInstance());
-
-        textView = findViewById(R.id.rcMusicAppLinkText);
-        textView.setMovementMethod(LinkMovementMethod.getInstance());
-
-        textView = findViewById(R.id.rcbgdMusicAppLinkText);
-        textView.setMovementMethod(LinkMovementMethod.getInstance());
-
         textView = findViewById(R.id.rcMusicAppLinkText);
         textView.setMovementMethod(LinkMovementMethod.getInstance());
 
