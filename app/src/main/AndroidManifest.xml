@@ -15,7 +15,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BGDMusicQuickApp">
-        <activity android:name="com.bgdmusicclub.bgdmusicquickapp.MainActivity">
+        <activity android:name="com.bgdmusicclub.bgdmusicquickapp.MainActivity"
+                    android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
