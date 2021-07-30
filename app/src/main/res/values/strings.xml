@@ -1,24 +1,12 @@
 <resources>
     <string name="app_name">BGD Music Quick App</string>
-    <string name="bgd_concert">bgd_concert_announcment</string>
     <string name="bgd_music_quick_app">BGD Music Quick App</string>
-    <string name="concert">concert</string>
     <string name="bad_girls_dream_1990_present_app_home_page" translatable="false"><a href="https://bgdmusic.club/bad-girls-dream-home/">
         Bad Girls Dream 1990 - Present App Home Page</a></string>
     <string name="mosh_fix_of_bad_girls_dream_1989_mosh_page" translatable="false"><a href="https://mosh.bgdmusic.club/">
         Mosh Fix of Bad Girls Dream - 1989 Mosh Page</a></string>
-    <string name="mosh_and">mosh_and</string>
-    <string name="cassette">cassette</string>
-    <string name="string_cassette" />
     <string name="our_blog_of_bad_girls_dream_1990_blog_page" translatable="false"><a href="https://bgdmusic.club/our-blog-bad-girls/">
         Our Blog of Bad Girls Dream - 1990 Blog Page</a></string>
-    <string name="dueling_worlds">dueling_worlds</string>
-    <string name="restless_child" />
-    <string name="restless">restless</string>
-    <string name="string_restless">restless</string>
-    <string name="vivs_biz">vivs_biz</string>
-    <string name="ic_bgd_concert_512">ic_bgd_concert_512</string>
-    <string name="ic_bgd_music_app_product_image">ic_bgd_music_app_product_image</string>
     <string name="bad_girls_dream_album_in_app_site_the_taste_of_satisfaction_1990_album_5_songs_1_99" translatable="false">
         <a href="https://shop.duelingworlds.com/shop/bad-girls-dream-album-in-app-site-the-taste-of-satisfaction-1990-album-5-songs-1-99/">
             Bad Girls Dream Album in App Site “The Taste of Satisfaction” 1990 Album, 5 songs $1.99</a></string>
