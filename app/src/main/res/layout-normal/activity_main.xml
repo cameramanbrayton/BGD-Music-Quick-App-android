@@ -43,7 +43,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/headerText"
             app:srcCompat="@drawable/ic_bgd_music_app_product_image_reduced"
-            tools:ignore="DuplicateSpeakableTextCheck,DuplicateSpeakableTextCheck" />
+            tools:ignore="DuplicateSpeakableTextCheck,DuplicateSpeakableTextCheck,UsingOnClickInXml" />
 
         <TextView
             android:id="@+id/bgdMusicAppLinkText"
@@ -77,7 +77,8 @@
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/bgdMusicAppLinkText"
-            app:srcCompat="@drawable/ic_rcb_music_app_product_image_reduced" />
+            app:srcCompat="@drawable/ic_rcb_music_app_product_image_reduced"
+            tools:ignore="UsingOnClickInXml" />
 
         <TextView
             android:id="@+id/rcMusicAppLinkText"
@@ -112,7 +113,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/rcMusicAppLinkText"
             app:srcCompat="@drawable/ic_rcbgd_music_app_product_image_reduced"
-            tools:ignore="ImageContrastCheck,ImageContrastCheck" />
+            tools:ignore="ImageContrastCheck,ImageContrastCheck,UsingOnClickInXml" />
 
         <TextView
             android:id="@+id/rcbgdMusicAppLinkText"
@@ -146,7 +147,8 @@
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/rcbgdMusicAppLinkText"
-            app:srcCompat="@drawable/ic_bgd_concert_512" />
+            app:srcCompat="@drawable/ic_bgd_concert_512"
+            tools:ignore="UsingOnClickInXml" />
 
         <TextView
             android:id="@+id/homerBgdLinkText"
@@ -180,7 +182,8 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/homerBgdLinkText"
-            app:srcCompat="@drawable/ic_mosh_and" />
+            app:srcCompat="@drawable/ic_mosh_and"
+            tools:ignore="UsingOnClickInXml" />
 
         <TextView
             android:id="@+id/moshBgdLinkText3"
@@ -214,7 +217,8 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/moshBgdLinkText3"
-            app:srcCompat="@drawable/ic_cassette_512" />
+            app:srcCompat="@drawable/ic_cassette_512"
+            tools:ignore="UsingOnClickInXml" />
 
         <TextView
             android:id="@+id/blogBgdLinkText4"
@@ -248,7 +252,8 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/blogBgdLinkText4"
-            app:srcCompat="@drawable/ic_duelingworlds_512" />
+            app:srcCompat="@drawable/ic_duelingworlds_512"
+            tools:ignore="UsingOnClickInXml" />
 
         <TextView
             android:id="@+id/DuelWorLinkText5"
@@ -282,7 +287,8 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/DuelWorLinkText5"
-            app:srcCompat="@drawable/ic_restless_512" />
+            app:srcCompat="@drawable/ic_restless_512"
+            tools:ignore="UsingOnClickInXml" />
 
         <TextView
             android:id="@+id/ResChiLinkText6"
@@ -316,7 +322,8 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/ResChiLinkText6"
-            app:srcCompat="@drawable/ic_vivs_512" />
+            app:srcCompat="@drawable/ic_vivs_512"
+            tools:ignore="UsingOnClickInXml" />
 
         <TextView
             android:id="@+id/VivsBizLinkText7"
