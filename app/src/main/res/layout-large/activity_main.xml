@@ -43,7 +43,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/headerText"
             app:srcCompat="@drawable/ic_bgd_music_app_product_image_reduced"
-            tools:ignore="DuplicateSpeakableTextCheck" />
+            tools:ignore="DuplicateSpeakableTextCheck,UsingOnClickInXml" />
 
         <TextView
             android:id="@+id/bgdMusicAppLinkText"
@@ -77,7 +77,8 @@
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/bgdMusicAppLinkText"
-            app:srcCompat="@drawable/ic_rcb_music_app_product_image_reduced" />
+            app:srcCompat="@drawable/ic_rcb_music_app_product_image_reduced"
+            tools:ignore="UsingOnClickInXml" />
 
         <TextView
             android:id="@+id/rcMusicAppLinkText"
@@ -111,7 +112,8 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/rcMusicAppLinkText"
-            app:srcCompat="@drawable/ic_rcbgd_music_app_product_image_reduced" />
+            app:srcCompat="@drawable/ic_rcbgd_music_app_product_image_reduced"
+            tools:ignore="UsingOnClickInXml" />
 
         <TextView
             android:id="@+id/rcbgdMusicAppLinkText"
@@ -137,14 +139,15 @@
             android:layout_width="0dp"
             android:layout_height="300dp"
             android:layout_marginTop="20dp"
-            android:contentDescription="@string/ic_bgd_concert_512"
+            android:contentDescription="@string/bad_girls_dream_1990_present_app_home_page"
             android:onClick="openBrowser"
             android:tag="https://bgdmusic.club/bad-girls-dream-home/"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/rcbgdMusicAppLinkText"
-            app:srcCompat="@drawable/ic_bgd_concert_512" />
+            app:srcCompat="@drawable/ic_bgd_concert_512"
+            tools:ignore="UsingOnClickInXml" />
 
         <TextView
             android:id="@+id/homerBgdLinkText"
@@ -171,14 +174,15 @@
             android:layout_width="0dp"
             android:layout_height="300dp"
             android:layout_marginTop="20dp"
-            android:contentDescription="@string/mosh_and"
+            android:contentDescription="@string/mosh_fix_of_bad_girls_dream_1989_mosh_page"
             android:onClick="openBrowser"
             android:tag="https://mosh.bgdmusic.club/"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/homerBgdLinkText"
-            app:srcCompat="@drawable/ic_mosh_and" />
+            app:srcCompat="@drawable/ic_mosh_and"
+            tools:ignore="UsingOnClickInXml" />
 
         <TextView
             android:id="@+id/moshBgdLinkText3"
@@ -205,14 +209,15 @@
             android:layout_width="0dp"
             android:layout_height="300dp"
             android:layout_marginTop="20dp"
-            android:contentDescription="@string/string_cassette"
+            android:contentDescription="@string/our_blog_of_bad_girls_dream_1990_blog_page"
             android:onClick="openBrowser"
             android:tag="https://bgdmusic.club/our-blog-bad-girls/"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/moshBgdLinkText3"
-            app:srcCompat="@drawable/ic_cassette_512" />
+            app:srcCompat="@drawable/ic_cassette_512"
+            tools:ignore="UsingOnClickInXml" />
 
         <TextView
             android:id="@+id/blogBgdLinkText4"
@@ -239,14 +244,15 @@
             android:layout_width="0dp"
             android:layout_height="300dp"
             android:layout_marginTop="20dp"
-            android:contentDescription="@string/dueling_worlds"
+            android:contentDescription="@string/dueling_worlds_international_quick_app"
             android:onClick="openBrowser"
             android:tag="https://duelingworlds.com"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/blogBgdLinkText4"
-            app:srcCompat="@drawable/ic_duelingworlds_512" />
+            app:srcCompat="@drawable/ic_duelingworlds_512"
+            tools:ignore="UsingOnClickInXml" />
 
         <TextView
             android:id="@+id/DuelWorLinkText5"
@@ -273,14 +279,15 @@
             android:layout_width="0dp"
             android:layout_height="300dp"
             android:layout_marginTop="20dp"
-            android:contentDescription="@string/string_restless"
+            android:contentDescription="@string/restless_child_1988_to_present_quick_app"
             android:onClick="openBrowser"
             android:tag="https://restlesschild.rocks"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/DuelWorLinkText5"
-            app:srcCompat="@drawable/ic_restless_512" />
+            app:srcCompat="@drawable/ic_restless_512"
+            tools:ignore="UsingOnClickInXml" />
 
         <TextView
             android:id="@+id/ResChiLinkText6"
@@ -307,14 +314,15 @@
             android:layout_width="0dp"
             android:layout_height="300dp"
             android:layout_marginTop="20dp"
-            android:contentDescription="@string/vivs_biz"
+            android:contentDescription="@string/shopping_vivians_quick_app"
             android:onClick="openBrowser"
             android:tag="https://vivians.biz"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/ResChiLinkText6"
-            app:srcCompat="@drawable/ic_vivs_512" />
+            app:srcCompat="@drawable/ic_vivs_512"
+            tools:ignore="UsingOnClickInXml" />
 
         <TextView
             android:id="@+id/VivsBizLinkText7"
