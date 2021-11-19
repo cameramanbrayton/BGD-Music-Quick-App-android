@@ -113,7 +113,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/rcMusicAppLinkText"
             app:srcCompat="@drawable/ic_rcbgd_music_app_product_image_reduced"
-            tools:ignore="ImageContrastCheck,ImageContrastCheck,UsingOnClickInXml" />
+            tools:ignore="ImageContrastCheck,ImageContrastCheck,UsingOnClickInXml,DuplicateSpeakableTextCheck" />
 
         <TextView
             android:id="@+id/rcbgdMusicAppLinkText"
@@ -127,7 +127,7 @@
             android:gravity="center"
             android:padding="10sp"
             android:text="@string/brayton_scott_music_entertainment_all_music_app_17_songs_3_99"
-            android:textColor="#000000"
+            android:textColor="#795548"
             android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
@@ -142,13 +142,13 @@
             android:layout_marginTop="20dp"
             android:contentDescription="@string/bad_girls_dream_1990_present_app_home_page"
             android:onClick="openBrowser"
-            android:tag="https://bgdmusic.club/bad-girls-dream-home/"
+            android:tag="https://bsme.duelingworlds.com/bad-girls-dream-home/"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/rcbgdMusicAppLinkText"
             app:srcCompat="@drawable/ic_bgd_concert_512"
-            tools:ignore="UsingOnClickInXml" />
+            tools:ignore="UsingOnClickInXml,DuplicateSpeakableTextCheck" />
 
         <TextView
             android:id="@+id/homerBgdLinkText"
@@ -162,7 +162,7 @@
             android:gravity="center"
             android:padding="10sp"
             android:text="@string/bad_girls_dream_1990_present_app_home_page"
-            android:textColor="#000000"
+            android:textColor="#795548"
             android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
@@ -177,13 +177,13 @@
             android:layout_marginTop="20dp"
             android:contentDescription="@string/mosh_fix_of_bad_girls_dream_1989_mosh_page"
             android:onClick="openBrowser"
-            android:tag="https://mosh.bgdmusic.club/"
+            android:tag="https://bsme.duelingworlds.com/mosh-fix/"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/homerBgdLinkText"
             app:srcCompat="@drawable/ic_mosh_and"
-            tools:ignore="UsingOnClickInXml" />
+            tools:ignore="UsingOnClickInXml,DuplicateSpeakableTextCheck" />
 
         <TextView
             android:id="@+id/moshBgdLinkText3"
@@ -197,7 +197,7 @@
             android:gravity="center"
             android:padding="10sp"
             android:text="@string/mosh_fix_of_bad_girls_dream_1989_mosh_page"
-            android:textColor="#000000"
+            android:textColor="#795548"
             android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
@@ -212,13 +212,13 @@
             android:layout_marginTop="20dp"
             android:contentDescription="@string/our_blog_of_bad_girls_dream_1990_blog_page"
             android:onClick="openBrowser"
-            android:tag="https://bgdmusic.club/our-blog-bad-girls/"
+            android:tag="https://blog.duelingworlds.com/"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/moshBgdLinkText3"
             app:srcCompat="@drawable/ic_cassette_512"
-            tools:ignore="UsingOnClickInXml" />
+            tools:ignore="UsingOnClickInXml,DuplicateSpeakableTextCheck" />
 
         <TextView
             android:id="@+id/blogBgdLinkText4"
@@ -232,7 +232,7 @@
             android:gravity="center"
             android:padding="10sp"
             android:text="@string/our_blog_of_bad_girls_dream_1990_blog_page"
-            android:textColor="#000000"
+            android:textColor="#795548"
             android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
@@ -253,7 +253,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/blogBgdLinkText4"
             app:srcCompat="@drawable/ic_duelingworlds_512"
-            tools:ignore="UsingOnClickInXml" />
+            tools:ignore="UsingOnClickInXml,DuplicateSpeakableTextCheck" />
 
         <TextView
             android:id="@+id/DuelWorLinkText5"
@@ -267,7 +267,7 @@
             android:gravity="center"
             android:padding="10sp"
             android:text="@string/dueling_worlds_international_quick_app"
-            android:textColor="#000000"
+            android:textColor="#795548"
             android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
@@ -282,13 +282,13 @@
             android:layout_marginTop="20dp"
             android:contentDescription="@string/restless_child_1988_to_present_quick_app"
             android:onClick="openBrowser"
-            android:tag="https://restlesschild.rocks"
+            android:tag="https://bsme.duelingworlds.com/beginning/"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/DuelWorLinkText5"
             app:srcCompat="@drawable/ic_restless_512"
-            tools:ignore="UsingOnClickInXml" />
+            tools:ignore="UsingOnClickInXml,DuplicateSpeakableTextCheck" />
 
         <TextView
             android:id="@+id/ResChiLinkText6"
@@ -302,7 +302,7 @@
             android:gravity="center"
             android:padding="10sp"
             android:text="@string/restless_child_1988_to_present_quick_app"
-            android:textColor="#000000"
+            android:textColor="#795548"
             android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
@@ -323,7 +323,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/ResChiLinkText6"
             app:srcCompat="@drawable/ic_vivs_512"
-            tools:ignore="UsingOnClickInXml" />
+            tools:ignore="UsingOnClickInXml,DuplicateSpeakableTextCheck" />
 
         <TextView
             android:id="@+id/VivsBizLinkText7"
@@ -337,7 +337,7 @@
             android:gravity="center"
             android:padding="10sp"
             android:text="@string/shopping_vivians_quick_app"
-            android:textColor="#000000"
+            android:textColor="#795548"
             android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
